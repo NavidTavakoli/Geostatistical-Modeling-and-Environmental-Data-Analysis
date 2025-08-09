@@ -2,7 +2,8 @@
 (Environmental O3 Density Analysis, Variogram Modeling, and Kriging Mapping)
 
 ![Overal](001.png)
-
+# Data visualization by using Sgems
+![Overal](003.png)
 This project presents a **comprehensive geostatistical analysis** of ground-level ozone (O₃) concentrations across five European countries: **Netherlands, Belgium, France, Switzerland, and Italy**. Using a combination of statistical analysis, variogram modeling, and kriging interpolation, the study provides insights into the spatial distribution of O₃ density for environmental monitoring and policy-making.
 
 ---
@@ -228,6 +229,8 @@ model_lin1 <- fit.variogram(v_azimuth0, model = vgm("Lin", psill = 70, range = 1
 kriging_cv_model_exp1 <- krige.cv(Density ~ 1, sp_points, model = model_exp1)
 
 ```
+![Cross Validation](Cross_Validation.png)
+
 - Performs leave-one-out cross-validation for each model and azimuth.
 
 ## 1️⃣3️⃣ Compute Error Metrics
@@ -240,6 +243,9 @@ calculate_mae <- function(observed, predicted) { mean(abs(observed - predicted),
 
 ```
 - Defines functions to calculate MSE, RMSE, MAE, Mean Normalized Error, and Variance of Normalized Error.
+
+
+![Results](result.png)
 
 1️⃣4️⃣ Save Results
 
