@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/684050775.svg)](https://doi.org/10.5281/zenodo.16905089)
+
+
+
 # A Comprehensive Study on the Density of Ozone (O3) in Five European Countries
 (Environmental O3 Density Analysis, Variogram Modeling, and Kriging Mapping)
 
