@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Geostatistical Modeling of Ground-Level Ozone (O₃) in Five European Countries: Variogram Analysis and Kriging Maps"
+version: "v1.0"
+date-released: "2025-08-19"
+authors:
+  - family-names: "Tavakoli Shalmani"
+    given-names: "Navid"
+    affiliation: "DICAM, Alma Mater Studiorum – Università di Bologna"
+  - family-names: "Arzi"
+    given-names: "Fereshteh"
+    affiliation: "DICAM, Alma Mater Studiorum – Università di Bologna"
+repository-code: "https://github.com/NavidTavakoli/Geostatistical-Modeling-and-Environmental-Data-Analysis"
+license: "MIT"
+keywords:
+  - ozone
+  - O3
+  - air quality
+  - geostatistics
+  - variogram
+  - kriging
+  - EEA
+  - gstat
+  - SGeMS
