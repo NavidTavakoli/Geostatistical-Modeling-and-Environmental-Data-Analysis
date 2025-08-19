@@ -8,5 +8,17 @@ preferred-citation:
       given-names: "Fereshteh"
   year: 2025
   version: "v1.0"
-  doi: "10.5281/zenodo.16905229"
+  doi: "10.5281/zenodo.16905229"      # DOI مقاله (PDF)
   url: "https://doi.org/10.5281/zenodo.16905229"
+
+references:
+  - type: software
+    title: "Geostatistical-Modeling-and-Environmental-Data-Analysis (software release v1.0)"
+    authors:
+      - family-names: "Tavakoli Shalmani"
+        given-names: "Navid"
+      - family-names: "Arzi"
+        given-names: "Fereshteh"
+    year: 2025
+    doi: "10.5281/zenodo.16905089"    # DOI ریلیز کد
+    url: "https://doi.org/10.5281/zenodo.16905089"
