@@ -1,12 +1,12 @@
 preferred-citation:
-  type: software
-  title: "Geostatistical-Modeling-and-Environmental-Data-Analysis"
+  type: article
+  title: "Geostatistical Modeling of Ground-Level Ozone (O₃) in Five European Countries: Variogram Analysis and Kriging Maps"
   authors:
     - family-names: "Tavakoli Shalmani"
       given-names: "Navid"
     - family-names: "Arzi"
       given-names: "Fereshteh"
-  version: "v1.0"
   year: 2025
-  doi: "10.5281/zenodo.16905089"
-  url: "https://doi.org/10.5281/zenodo.16905089"
+  version: "v1.0"
+  doi: "10.5281/zenodo.16905229"
+  url: "https://doi.org/10.5281/zenodo.16905229"
